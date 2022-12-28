@@ -3,7 +3,7 @@ import reducer from "./reducer";
 
 const AppContext = React.createContext();
 
-const API = "https://thapareactapi.up.railway.app";
+const API = "https://Opusreactapi.up.railway.app";
 
 const intialState = {
   name: "",
@@ -18,8 +18,8 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "HOME_UPDATE",
       payload: {
-        name: "Thapa Technical",
-        image: "./images/hero.svg",
+        name: "Opus",
+        image: "./images/hero.jpg",
       },
     });
   };
@@ -28,8 +28,8 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "Vinod Thapa",
-        image: "./images/about1.svg",
+        name: "Vinod Opus",
+        image: "./images/motivation-near-window-edited.webp",
       },
     });
   };

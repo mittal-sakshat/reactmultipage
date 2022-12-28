@@ -11,14 +11,23 @@ const HeroSection = () => {
     <Wrapper>
       <div className="container grid grid-two-column">
         <div className="section-hero-data">
-          <p className="hero-top-data">THIS IS ME</p>
-          <h1 className="hero-heading">{name}</h1>
+          {/* <p className="hero-top-data">THIS IS ME</p> */}
+          <h1 className="hero-heading">Opus</h1>
           <p className="hero-para">
-            I'm {name}. A Full stack Developer, youtuber and freelancer. A Full
-            stack Developer, youtuber and freelancer.
+          Built for
+enterprise
+businesses.
+Opus includes everything you need to build a beautiful website for your business. Built to perform and look good doing so.
+Learn More
+Explore Pages
+I felt like I couldn’t grow until I moved to Opus. Now I am encouraged to sell more with them.
+Frank Dublin
+CEO @stamps
+SCROLL FOR MORE
+Trusted and loved by the world’s best teams
           </p>
           <Button className="btn hireme-btn">
-            <NavLink to="/contact"> hire me </NavLink>
+            <NavLink to="/contact"> learn more</NavLink>
           </Button>
         </div>
 

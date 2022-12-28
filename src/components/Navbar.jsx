@@ -124,7 +124,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/">
-              Home
+              Overview
             </NavLink>
           </li>
           <li>
@@ -132,7 +132,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/about">
-              About
+              Pages
             </NavLink>
           </li>
           <li>
@@ -140,7 +140,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/service">
-              Services
+              Template
             </NavLink>
           </li>
           <li>
@@ -148,7 +148,7 @@ const Navbar = () => {
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/contact">
-              Contact
+              Contact Us
             </NavLink>
           </li>
         </ul>

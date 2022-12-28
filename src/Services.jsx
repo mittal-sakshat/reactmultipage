@@ -10,26 +10,97 @@ const Services = () => {
 
   return (
     <Wrapper className="section">
-      <h2 className="common-heading">Our Services</h2>
-      <div className="container grid grid-three-column">
-        {services.map((curElem) => {
-          const { id, name, image, description } = curElem;
-          return (
-            <div key={id} className="card">
-              <figure>
-                <img src={image} alt={name} />
-              </figure>
+      <h2 className="common-heading">Trusted and loved by the world’s best teams</h2>
+      <div className="container grid grid-four-column">
+
+            <div className="card">
+
               <div className="card-data">
-                <h3>{name}</h3>
-                <p>{description}</p>
+                <h3>WetTransfer</h3>
+                <p></p>
                 <NavLink to="/service">
                   <Button className="btn">Read More</Button>
                 </NavLink>
               </div>
             </div>
-          );
-        })}
+
+            <div className="card">
+
+  <div className="card-data">
+    <h3>Sugarcane</h3>
+    <p></p>
+    <NavLink to="/service">
+      <Button className="btn">Read More</Button>
+    </NavLink>
+  </div>
+</div>
+
+
+            <div className="card">
+
+              <div className="card-data">
+                <h3>manter.</h3>
+                <p></p>
+                <NavLink to="/service">
+                  <Button className="btn">Read More</Button>
+                </NavLink>
+              </div>
+            </div>
+
+
+            <div className="card">
+
+              <div className="card-data">
+                <h3>Sugarcane</h3>
+                <p></p>
+                <NavLink to="/service">
+                  <Button className="btn">Read More</Button>
+                </NavLink>
+              </div>
+            </div>
+
       </div>
+
+<div className="container grid grid-four-column">
+
+<div className="card">
+
+  <div className="card-data">
+    <h3 className="pp">99.95%</h3>
+    <p>Accuracy rate</p>
+
+  </div>
+</div>
+
+<div className="card">
+
+  <div className="card-data">
+    <h3 className="pp">5,000+</h3>
+    <p>Ecommerce businesses</p>
+
+  </div>
+</div>
+
+<div className="card">
+
+  <div className="card-data">
+    <h3 className="pp">99.96%</h3>
+    <p>Of orders ship on time</p>
+
+  </div>
+</div>
+
+
+<div className="card">
+
+  <div className="card-data">
+    <h3 className="pp">#1</h3>
+    <p>Best Fulfillment Technology</p>
+
+  </div>
+</div>
+
+</div>
     </Wrapper>
   );
 };
@@ -40,6 +111,7 @@ const Wrapper = styled.section`
 
   .container {
     max-width: 120rem;
+    padding: 10rem;
   }
 
   .card {
@@ -53,6 +125,11 @@ const Wrapper = styled.section`
       font-weight: 300;
       font-size: 2.4rem;
     }
+    .pp{
+      color: rgb(24 24 29);
+      font-weight: 600;
+    }
+
     .btn {
       margin: 2rem auto;
       background-color: rgb(0 0 0 / 0%);
